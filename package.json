@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "My ideas for the tonies",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kluth/tonies.git"
@@ -20,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/kluth/tonies/issues"
   },
-  "homepage": "https://github.com/kluth/tonies#readme"
+  "homepage": "https://github.com/kluth/tonies#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.21.1"
+  }
 }
