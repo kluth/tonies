@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "My ideas for the tonies",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test-api": "npx json-server ./tests/api/db.json --watch --port 3001",
+    "test-e2e": "npx playwright test",
+    "test-unit": "jest"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kluth/tonies.git"
@@ -20,6 +24,7 @@
   },
   "homepage": "https://github.com/kluth/tonies#readme",
   "devDependencies": {
-    "@playwright/test": "^1.21.1"
+    "@playwright/test": "^1.21.1",
+    "json-server": "^0.17.0"
   }
 }
