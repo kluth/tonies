@@ -129,6 +129,12 @@
             "name": "Benjamin hat Zahnweh",
             "seriesId": "benjamin-bluemchen",
             "file": "benjamin-bluemchen/benjamin-hat-zahnweh.mp3"
+        },
+        {
+            "id": "16",
+            "name": "Benjamin hat einen Babybruder",
+            "seriesId": "benjamin-bluemchen",
+            "file": "benjamin-bluemchen/benjamin-hat-einen-babybruder.mp3"
         }
     ]
 }
