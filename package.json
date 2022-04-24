@@ -4,7 +4,9 @@
   "description": "My ideas for the tonies",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test-api": "npx json-server ./tests/api/db.json --watch --port 3001",
+    "test-e2e": "npx playwright test",
+    "test-unit": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/kluth/tonies/issues"
   },
-  "homepage": "https://github.com/kluth/tonies#readme"
+  "homepage": "https://github.com/kluth/tonies#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.21.1",
+    "json-server": "^0.17.0"
+  }
 }

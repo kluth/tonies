@@ -1,0 +1,140 @@
+{
+    "tonies": [
+        {
+            "id": "1",
+            "name": "Kreativtonie",
+            "seriesId": "creative"
+        },
+        {
+            "id": "2",
+            "name": "Gute Nacht Benjamin",
+            "seriesId": "benjamin-bluemchen"
+        },
+        {
+            "id": "3",
+            "name": "Kleiner Tiger",
+            "seriesId": "janosch"
+        },
+        {
+            "id": "4",
+            "name": "Belle",
+            "seriesId": "disney"
+        }
+    ],
+    "series": [
+        {
+            "id": "creative",
+            "name": "Kreativtonies"
+        },
+        {
+            "id": "benjamin-bluemchen",
+            "name": "Benjamin Bluemchen"
+        },
+        {
+            "id": "janosch",
+            "name": "Janosch"
+        },
+        {
+            "id": "disney",
+            "name": "Disney"
+        }
+    ],
+    "stories": [
+        {
+            "id": "1",
+            "name": "Hörbonbon 1",
+            "seriesId": "creative",
+            "file": "creative/1.mp3"
+        },
+        {
+            "id": "2",
+            "name": "Hörbonbon 2",
+            "seriesId": "creative",
+            "file": "creative/2.mp3"
+        },
+        {
+            "id": "3",
+            "name": "Hörbonbon 3",
+            "seriesId": "creative",
+            "file": "creative/3.mp3"
+        },
+        {
+            "id": "4",
+            "name": "Hörbonbon 4",
+            "seriesId": "creative",
+            "file": "creative/4.mp3"
+        },
+        {
+            "id": "5",
+            "name": "Hörbonbon 5",
+            "seriesId": "creative",
+            "file": "creative/5.mp3"
+        },
+        {
+            "id": "6",
+            "name": "Hörbonbon 6",
+            "seriesId": "creative",
+            "file": "creative/6.mp3"
+        },
+        {
+            "id": "7",
+            "name": "Hörbonbon 7",
+            "seriesId": "creative",
+            "file": "creative/7.mp3"
+        },
+        {
+            "id": "8",
+            "name": "Hörbonbon 8",
+            "seriesId": "creative",
+            "file": "creative/8.mp3"
+        },
+        {
+            "id": "9",
+            "name": "Hörbonbon 9",
+            "seriesId": "creative",
+            "file": "creative/9.mp3"
+        },
+        {
+            "id": "10",
+            "name": "Hörbonbon 10",
+            "seriesId": "creative",
+            "file": "creative/10.mp3"
+        },
+        {
+            "id": "11",
+            "name": "Hörbonbon 11",
+            "seriesId": "creative",
+            "file": "creative/11.mp3"
+        },
+        {
+            "id": "12",
+            "name": "Aladdin",
+            "seriesId": "disney",
+            "file": "disney/aladdin.mp3"
+        },
+        {
+            "id": "13",
+            "name": "Bambi",
+            "seriesId": "disney",
+            "file": "disney/bambi.mp3"
+        },
+        {
+            "id": "14",
+            "name": "Oh wie schön ist Panama",
+            "seriesId": "janosch",
+            "file": "janosch/oh-wie-schoen-ist-panama.mp3"
+        },
+        {
+            "id": "15",
+            "name": "Benjamin hat Zahnweh",
+            "seriesId": "benjamin-bluemchen",
+            "file": "benjamin-bluemchen/benjamin-hat-zahnweh.mp3"
+        },
+        {
+            "id": "16",
+            "name": "Benjamin hat einen Babybruder",
+            "seriesId": "benjamin-bluemchen",
+            "file": "benjamin-bluemchen/benjamin-hat-einen-babybruder.mp3"
+        }
+    ]
+}
