@@ -3,22 +3,26 @@
         {
             "id": "1",
             "name": "Kreativtonie",
-            "seriesId": "creative"
+            "seriesId": "creative",
+            "image": "img/kreativ-tonie.png"
         },
         {
             "id": "2",
             "name": "Gute Nacht Benjamin",
-            "seriesId": "benjamin-bluemchen"
+            "seriesId": "benjamin-bluemchen",
+            "image": "img/schlaf-benjamin.png"
         },
         {
             "id": "3",
             "name": "Kleiner Tiger",
-            "seriesId": "janosch"
+            "seriesId": "janosch",
+            "image": "img/kleiner-tiger.png"
         },
         {
             "id": "4",
             "name": "Belle",
-            "seriesId": "disney"
+            "seriesId": "disney",
+            "image": "img/belle.png"
         }
     ],
     "series": [
