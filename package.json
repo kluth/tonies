@@ -4,11 +4,34 @@
   "description": "My ideas for the tonies",
   "main": "index.js",
   "scripts": {
-    "test-api": "npx json-server ./tests/api/db.json --watch --port 3001",
-    "test-e2e": "npx playwright test",
-    "test-unit": "jest",
-    "start": "webpack serve --port 3000",
-    "build": "NODE_ENV=production webpack"
+    "test-api": "wireit",
+    "test-e2e": "wireit",
+    "test-unit": "wireit",
+    "start": "wireit",
+    "build": "wireit"
+  },
+  "wireit": {
+    "build": {
+      "command": "NODE_ENV=production webpack"
+    },
+    "test-api": {
+      "command": "npx json-server ./tests/api/db.json --port 3001"
+    },
+    "start": {
+      "dependencies": [
+        "test-unit"
+      ],
+      "command": "webpack serve --port 3000"
+    },
+    "test-e2e": {
+      "dependencies": [
+        "test-unit"
+      ],
+      "command": "npx playwright test"
+    },
+    "test-unit": {
+      "command": "npx jest --passWithNoTests"
+    }
   },
   "repository": {
     "type": "git",
@@ -38,7 +61,8 @@
     "typescript": "^4.6.3",
     "webpack": "^5.72.0",
     "webpack-cli": "^4.9.2",
-    "webpack-dev-server": "^4.8.1"
+    "webpack-dev-server": "^4.8.1",
+    "wireit": "^0.2.0"
   },
   "dependencies": {
     "react": "^18.0.0",
